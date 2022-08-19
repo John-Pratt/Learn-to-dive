@@ -36,8 +36,27 @@ body{
     overflow: auto;
 }
 
+.article-content {
+    margin-left: 210px;
+}
+
+.article-content p {
+    color: dodgerblue;
+    font-size: 21pt;
+    font-family: 'system-ui', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.article-title {
+    font-size: 200%;
+    font-weight: bold;
+}
+
 .article-thumb-left {
     float: left;
+}
+
+.article-thumb-right {
+    float: right;
 }
 
 #navbar>nav>ul>li>a:hover{
@@ -49,8 +68,14 @@ body{
 
 .h1title>h1{
     text-align: center;
-    font-size: 6em;
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 70%;
+    color: #f1f1f1;
+    font-size: 5em;
 }
+
 
 /* factset */
 
@@ -76,6 +101,22 @@ section{
     color: #ff0000;
 }
 
+.imgResize {
+    width: 300px;
+    height: 500px;
+    padding: 25px;
+}
+
+#divingVideo {
+    position: relative;
+    z-index: -1;
+    top: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0;
+    overflow-y: scroll;
+}
+
 /* media query for navbar */
 
 @media (max-width: 768px) {
@@ -89,3 +130,4 @@ section{
         font-size: 2.5em;
     }
 }
+
