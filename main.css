@@ -117,6 +117,20 @@ section{
     overflow-y: scroll;
 }
 
+#sourcedLink {
+    text-decoration: none;
+}
+
+#sourcedLink:hover {
+    text-decoration: none;
+    color: #880808;
+}
+
+#sourcedLink:visited {
+    text-decoration: none;
+    /* color: #50C878; */
+}
+
 /* media query for navbar */
 
 @media (max-width: 768px) {
